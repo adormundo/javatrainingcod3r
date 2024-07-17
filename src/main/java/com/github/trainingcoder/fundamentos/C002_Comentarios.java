@@ -1,9 +1,11 @@
+package main.java.com.github.trainingcoder.fundamentos;
+
 /**
  * Esta classe representa exemplos de comentários em Java.
  * @author JiihDev
  * @since JDK 22.0
  */
-public class Main {
+public class C002_Comentarios {
     /**
      * Este é o método principal que inicia a execução do programa.
      * @param args Argumentos da linha de comando.
