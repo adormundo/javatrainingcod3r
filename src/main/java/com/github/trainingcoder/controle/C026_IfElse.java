@@ -2,7 +2,7 @@ package main.java.com.github.trainingcoder.controle;
 
 import javax.swing.*;
 
-public class C025_IfElse {
+public class C026_IfElse {
     public static void main(String[] args) {
         String valor = JOptionPane.showInputDialog("Informe o número");
         int numero = Integer.parseInt(valor);
