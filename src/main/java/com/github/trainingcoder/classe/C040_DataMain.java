@@ -6,6 +6,7 @@ public class C040_DataMain {
         data.dia = 1;
         data.mes = 1;
         data.ano = 1970;
-        System.out.printf("%d/%d/%d", data.dia, data.mes, data.ano);
+        System.out.println(data.obterDataFormatada());
+        data.imprimirDataFormatada();
     }
 }
