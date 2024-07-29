@@ -15,8 +15,8 @@ public class C039_ProdutoMain {
         System.out.println(p1.nome);
         System.out.println(p2.nome);
 
-        double precoFinalp1 = p1.preco * (1 - p1.desconto);
-        double precoFinalp2 = p2.preco * (1 - p2.desconto);
+        double precoFinalp1 = p1.precoComDesconto();
+        double precoFinalp2 = p1.precoComDesconto(0.1);
         double mediaCarrinho = (precoFinalp1 + precoFinalp2) / 2;
         System.out.printf("Média do carrinho = R$%.2f.", mediaCarrinho);
     }
