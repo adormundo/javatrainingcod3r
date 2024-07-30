@@ -5,6 +5,16 @@ public class C039_Produto {
     double preco;
     double desconto;
 
+    C039_Produto() {
+    }
+
+    C039_Produto(String nomeInicial, double precoInicial, double descontoInicial) {
+        nome = nomeInicial;
+        preco = precoInicial;
+        desconto = descontoInicial;
+    }
+
+
     double precoComDesconto(double descontoPlus) {
         return preco * (1 - (desconto + descontoPlus));
     }
