@@ -1,7 +1,8 @@
 package main.java.com.github.trainingcoder.fundamentos;
 
 public class C014_ConversoesString {
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
         // Conversão implícita (widening)
         int numero = 42;
         String texto = "O número é: " + numero; // Conversão automática do int para String

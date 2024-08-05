@@ -1,7 +1,8 @@
 package main.java.com.github.trainingcoder.controle;
 
 public class C036_BreakRotulado {
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
 
         externo:
         for (int i = 0; i < 3; i++) {

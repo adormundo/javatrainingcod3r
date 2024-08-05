@@ -1,7 +1,8 @@
 package main.java.com.github.trainingcoder.fundamentos;
 
 public class C012_Wrapper {
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
 
         // Declaração e inicialização de Wrappers
         Byte b = 100;
