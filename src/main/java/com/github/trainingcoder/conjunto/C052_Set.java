@@ -2,7 +2,7 @@ package main.java.com.github.trainingcoder.conjunto;
 
 import java.util.HashSet;
 
-public class C052_HashSet {
+public class C052_Set {
 
 	public static void main(String[] args) {
 		HashSet<Double> nums = new HashSet<>();

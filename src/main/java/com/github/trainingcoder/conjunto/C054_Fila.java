@@ -3,7 +3,7 @@ package main.java.com.github.trainingcoder.conjunto;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class C054_LinkedList {
+public class C054_Fila {
 
 	public static void main(String[] args) {
 		Queue<String> fila = new LinkedList<>();
