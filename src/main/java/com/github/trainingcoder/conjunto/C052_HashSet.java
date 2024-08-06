@@ -24,6 +24,7 @@ public class C052_HashSet {
 		uniao.addAll(pesos);
 		System.out.println(uniao);
 		
+		// Retorna os items que contem em nums e que está em uniao
 		nums.containsAll(uniao);
 		System.out.println(nums);
 		
