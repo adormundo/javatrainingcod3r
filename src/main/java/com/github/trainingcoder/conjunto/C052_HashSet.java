@@ -12,6 +12,21 @@ public class C052_HashSet {
 
 		System.out.println("Tamanho: " + nums.size());
 		System.out.println("Contém: " + nums.contains(1.2));
+		
+		HashSet<Double> pesos = new HashSet<>();
+		pesos.add(80.2);
+		pesos.add(67.5);
+		pesos.add(45.5);
+		
+		// União entre dois conjuntos
+		HashSet<Double> uniao = new HashSet<>();
+		uniao.addAll(nums);
+		uniao.addAll(pesos);
+		System.out.println(uniao);
+		
+		nums.containsAll(uniao);
+		System.out.println(nums);
+		
 	}
 
 }
