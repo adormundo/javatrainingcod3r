@@ -1,4 +1,4 @@
-package main.java.com.github.trainingcoder.oo.composicao;
+package main.java.com.github.trainingcoder.oo.relacionamento.composicao;
 
 public class C057_Carro {
 	final C057_Motor motor = new C057_Motor();

@@ -1,4 +1,4 @@
-package main.java.com.github.trainingcoder.oo.composicao.desafio;
+package main.java.com.github.trainingcoder.oo.relacionamento.composicao.desafio;
 
 import java.util.ArrayList;
 import java.util.List;

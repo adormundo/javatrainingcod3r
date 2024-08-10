@@ -1,4 +1,4 @@
-package main.java.com.github.trainingcoder.oo.npram;
+package main.java.com.github.trainingcoder.oo.relacionamento.npram;
 
 public class EscolaMain {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.com.github.trainingcoder.oo.umpran;
+package main.java.com.github.trainingcoder.oo.relacionamento.umpran;
 
 import java.util.ArrayList;
 
