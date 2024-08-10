@@ -1,18 +1,18 @@
 package main.java.com.github.trainingcoder.oo.heranca;
 
 public class Jogador {
-	int x;
-	int y;
-	int vida = 100;
+	private int x;
+	private int y;
+	private int vida = 100;
 
 	Jogador(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 
-	boolean atacar(Jogador outroJogador) {
-		int deltaX = Math.abs(x - outroJogador.x);
-		int deltaY = Math.abs(y - outroJogador.y);
+	public boolean atacar(Jogador outroJogador) {
+		int deltaX = Math.abs(obterX() - outroJogador.obterX());
+		int deltaY = Math.abs(obterY() - outroJogador.obterY());
 
 		if (deltaX == 0 && deltaY == 1) {
 			outroJogador.vida -= 10;
@@ -24,21 +24,33 @@ public class Jogador {
 		return false;
 	}
 
-	boolean andar(Direcao direcao) {
+	public boolean andar(Direcao direcao) {
 		switch (direcao) {
 		case NORTE:
-			y--;
+			y = obterY() - 1;
 			break;
 		case LESTE:
-			x++;
+			x = obterX() + 1;
 			break;
 		case SUL:
-			y++;
+			y = obterY() + 1;
 			break;
 		case OESTE:
-			x--;
+			x = obterX() - 1;
 			break;
 		}
 		return true;
+	}
+	
+	public int getVida() {
+		return vida;
+	}
+
+	public int obterX() {
+		return x;
+	}
+
+	public int obterY() {
+		return y;
 	}
 }

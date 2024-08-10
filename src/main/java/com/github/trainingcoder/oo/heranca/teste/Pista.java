@@ -1,4 +1,8 @@
-package main.java.com.github.trainingcoder.oo.heranca.desafio;
+package main.java.com.github.trainingcoder.oo.heranca.teste;
+
+import main.java.com.github.trainingcoder.oo.heranca.desafio.Carro;
+import main.java.com.github.trainingcoder.oo.heranca.desafio.Civic;
+import main.java.com.github.trainingcoder.oo.heranca.desafio.Ferrari;
 
 public class Pista {
 	public static void main(String[] args) {
