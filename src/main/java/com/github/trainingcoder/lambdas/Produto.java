@@ -11,5 +11,8 @@ public class Produto {
 		this.desconto = desconto;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return nome +  " tem preço de " + preco * (1 - desconto);
+	}
 }
