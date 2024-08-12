@@ -41,7 +41,7 @@ public class Jogador {
 		}
 		return true;
 	}
-	
+
 	public int getVida() {
 		return vida;
 	}

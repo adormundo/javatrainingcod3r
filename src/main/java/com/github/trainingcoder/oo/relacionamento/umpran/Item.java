@@ -1,7 +1,7 @@
 package main.java.com.github.trainingcoder.oo.relacionamento.umpran;
 
 public class Item {
-	
+
 	String nome;
 	int quantidade;
 	double preco;
@@ -11,5 +11,5 @@ public class Item {
 		this.quantidade = quantidade;
 		this.preco = preco;
 	}
-	
+
 }

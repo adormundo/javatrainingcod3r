@@ -5,6 +5,6 @@ public abstract class Mamifero extends Animal {
 	public final String mover() {
 		return "Saindo do lugar";
 	}
-	
+
 	public abstract String mamar();
 }

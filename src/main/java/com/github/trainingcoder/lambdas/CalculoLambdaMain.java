@@ -6,7 +6,7 @@ public class CalculoLambdaMain {
 		Calculo somar = (x, y) -> {
 			return x + y;
 		};
-		
+
 		Calculo multiplicar = (x, y) -> x * y;
 
 		System.out.println(somar.executar(1, 3));

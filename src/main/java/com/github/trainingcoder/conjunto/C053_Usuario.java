@@ -36,7 +36,5 @@ public class C053_Usuario {
 	public String toString() {
 		return "Meu nome é " + nome;
 	}
-	
-	
 
 }

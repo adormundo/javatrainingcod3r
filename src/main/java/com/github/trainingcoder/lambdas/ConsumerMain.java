@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 
 public class ConsumerMain {
 	public static void main(String[] args) {
-		
+
 		// Recebe um parametro <T> e não retornada nada.
 		Consumer<Produto> imprimir = produto -> System.out.println(produto.nome);
 

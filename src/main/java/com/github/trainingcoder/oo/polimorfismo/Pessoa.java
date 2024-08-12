@@ -6,11 +6,11 @@ public class Pessoa {
 	public Pessoa(double peso) {
 		setPeso(peso);
 	}
-	
+
 	public void comer(Comida comida) {
 		this.peso += comida.getPeso();
 	}
-	
+
 	public double getPeso() {
 		return peso;
 	}

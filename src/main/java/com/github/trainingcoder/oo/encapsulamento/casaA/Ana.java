@@ -6,5 +6,5 @@ public class Ana {
 	String facoDentroDeCasa = "default";
 	protected String formaDeFalar = "protected";
 	public String todosSabem = "publico";
-	
+
 }

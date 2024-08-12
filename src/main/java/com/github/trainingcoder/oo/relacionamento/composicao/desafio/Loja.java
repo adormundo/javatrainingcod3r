@@ -21,7 +21,7 @@ public class Loja {
 
 		cliente1.adicionarCompra(compras1);
 		cliente2.adicionarCompra(compras2);
-		
+
 		System.out.println("Total Compras da Maria: " + cliente1.obterValorTotal());
 		System.out.println("Total Compras do Jose: " + cliente2.obterValorTotal());
 	}
