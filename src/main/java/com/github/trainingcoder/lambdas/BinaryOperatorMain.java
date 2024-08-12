@@ -7,6 +7,7 @@ public class BinaryOperatorMain {
 		// NÃO: int to Double
 		// SIM: double to Double
 		
+		// Recebe dois parametros do mesmo tipo <t>, <t> e retorna o mesmo tipo <t>
 		BinaryOperator<Double> calc1 = (x, y) -> x + y;
 		System.out.println(calc1.apply(2.0, 3.0));
 		
